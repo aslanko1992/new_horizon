@@ -1,0 +1,23 @@
+# colcon / ROS2 build artifacts
+build/
+install/
+log/
+
+# ROS runtime
+.ros/
+*.db
+*.bag
+*.bag.active
+*.bag.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*~
