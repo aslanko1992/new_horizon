@@ -1,11 +1,4 @@
-Good. Now we stop looking like “a guy with a ROS workspace” and start looking like someone who **designed a system on purpose**.
-
-You don’t describe what you *have*.
-You describe what you are **building toward**.
-
-Below is a structured README draft you can almost copy-paste and adapt. Neutral tone. No drama. No overclaiming.
-
----
+--
 
 # new_horizon
 
