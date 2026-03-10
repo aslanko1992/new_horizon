@@ -11,6 +11,7 @@ find_package(nav_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(tf2 REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 
 find_package(eigen3_cmake_module REQUIRED)
 find_package(Eigen3 REQUIRED)
@@ -25,6 +26,7 @@ ament_target_dependencies(nh_ekf_node
   sensor_msgs
   geometry_msgs
   tf2
+  tf2_geometry_msgs
 )
 
 target_link_libraries(nh_ekf_node Eigen3::Eigen)
